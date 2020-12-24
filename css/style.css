@@ -364,7 +364,7 @@
 .section-promo2 {
    display: flex;
    margin-top: 90px;
-   background: url("../images/background-promo2.png") no-repeat, white;
+   background: url("../images/background-promo2.png") no-repeat, #ffffff;
    background-size: 100% 100%;
    z-index: 1;
    height: 820px;
@@ -374,8 +374,9 @@
 .section-promo2-wrapper {
    display: flex;
    flex-basis: 1920px;
-   margin-top: 210px;
    justify-content: center;
+   margin: auto;
+   margin-top: 210px;
    height: 610px;
 }
 
@@ -447,7 +448,7 @@
    margin-top: -25px;
    z-index: 1;
    height: 420px;
-   background: url("../images/background-promo3.png") no-repeat, linear-gradient(#9cc364, #9cc364);
+   background: url("../images/background-promo3.png") no-repeat, #9cc364;
    background-blend-mode: multiply;
    background-size: 100% 100%;
 }
@@ -457,6 +458,8 @@
    flex-basis: 1920px;
    margin-top: 85px;
    justify-content: center;
+   align-items: center;
+   margin: auto;
    height: 335px;
 }
 

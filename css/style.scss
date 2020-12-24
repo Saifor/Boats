@@ -350,7 +350,7 @@ $color-gray: #444444;
 .section-promo2 {
 	display: flex;
 	margin-top: 90px;
-	background: url('../images/background-promo2.png') no-repeat, rgb(255, 255, 255);
+	background: url('../images/background-promo2.png') no-repeat, $color-white;
 	background-size: 100% 100%;
 	z-index: 1;
 	height: 820px;
@@ -358,8 +358,9 @@ $color-gray: #444444;
 	&-wrapper {
 		display: flex;
 		flex-basis: 1920px;
-		margin-top: 210px;
 		justify-content: center;
+		margin: auto;
+		margin-top: 210px;
 		height: 610px;
 	}
 	&__photo{
@@ -414,7 +415,7 @@ $color-gray: #444444;
 	margin-top: -25px;
 	z-index: 1;
 	height: 420px;
-	background: url('../images/background-promo3.png') no-repeat, linear-gradient(rgba(156, 195, 100, 1), rgba(156, 195, 100, 1));
+	background: url('../images/background-promo3.png') no-repeat, $color-main;
     background-blend-mode: multiply;
 	background-size: 100% 100%;
 
@@ -423,6 +424,8 @@ $color-gray: #444444;
 		flex-basis: 1920px;
 		margin-top: 85px;
 		justify-content: center;
+		align-items: center;
+		margin: auto;
 		height: 335px;
 	}
 	&__photo{

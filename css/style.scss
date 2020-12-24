@@ -9,9 +9,9 @@
 	font-style  : normal;
 	font-weight : 700;
 	src         : local('Neue Machina Bold'), local('Neue-Machina-Bold'),
-	url('/fonts/NeueMachina-Bold.woff2') format('woff2'),
-	url('/fonts/NeueMachina-Bold.woff') format('woff'),
-	url('/fonts/NeueMachina-Bold.ttf') format('truetype');
+	url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
+	url('../fonts/NeueMachina-Bold.woff') format('woff'),
+	url('../fonts/NeueMachina-Bold.ttf') format('truetype');
 }
 
 *{
